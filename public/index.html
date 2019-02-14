@@ -26,7 +26,7 @@ let skeletons = [];
 let epox=0; 
 let itr1=50;
 let itr2=200;
-let itr3=200;
+let itr3=itr2-1;
 let arr =[];
 
 function setup() {
@@ -53,7 +53,7 @@ function setup() {
       
     epox ++;
     }
-    if(epox==200 ){
+    if(epox==itr3 ){
       console.log("Predicted model");
      console.log(arr[0])
      
